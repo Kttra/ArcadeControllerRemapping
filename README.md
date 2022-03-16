@@ -1,5 +1,5 @@
-# Hori Arcade Controller Remapper
- Remaps the controls for the hori arcade controller after physically changing the wiring to make it more suitable for future tone.
+#Arcade Controller Remapper
+Remaps the controls for an arcade controller after physically changing the wiring to make it more suitable for future tone. 
 
 (1) Unscrew all the silver screws from the bottom of the controller.  
 (2) Take a photo of the internal layout of the wires.  
