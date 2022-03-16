@@ -1,0 +1,64 @@
+#pragma METAINFO("Miku Remap - R2 L2", 1, 00, "Kttra")
+#include <remapper.gph>
+//#include <ps3.gph> //Needed if you use the remap on the bottom
+
+//Default Layout Example
+const uint8 DefaultMappingLayout[43] = {
+    RMP_USB_A | RMP_USB_B | RMP_USB_C | RMP_USB_D | RMP_BT_A | RMP_BT_B,
+    BUTTON_1,  BUTTON_2,  BUTTON_3,  BUTTON_4,  BUTTON_5,  BUTTON_6,  BUTTON_7, 
+    BUTTON_8,  BUTTON_9,  BUTTON_10, BUTTON_11, BUTTON_12, BUTTON_13, BUTTON_14, 
+    BUTTON_15, BUTTON_16, BUTTON_17, BUTTON_18, BUTTON_19, BUTTON_20, BUTTON_21, 
+    STICK_1_X, STICK_1_Y, STICK_2_X, STICK_2_Y, 
+    POINT_1_X, POINT_1_Y, POINT_2_X, POINT_2_Y, 
+    ACCEL_1_X, ACCEL_1_Y, ACCEL_1_Z, ACCEL_2_X, ACCEL_2_Y, ACCEL_2_Z, 
+    GYRO_1_X,  GYRO_1_Y,  GYRO_1_Z,
+    PADDLE_1,  PADDLE_2,  PADDLE_3,  PADDLE_4
+};
+
+//What we want
+const uint8 HatsuneMikuRemap[39] = {
+    RMP_USB_B,
+    BUTTON_1,  BUTTON_2,  BUTTON_3,  BUTTON_11,  BUTTON_10,  BUTTON_6,  BUTTON_12, 
+    BUTTON_13,  BUTTON_9,  BUTTON_4, BUTTON_17, BUTTON_14, BUTTON_5, BUTTON_7, 
+    BUTTON_15, BUTTON_16, BUTTON_8, BUTTON_18, BUTTON_19, BUTTON_20, BUTTON_21, 
+    STICK_1_X, STICK_1_Y, STICK_2_X, STICK_2_Y, 
+    POINT_1_X, POINT_1_Y, POINT_2_X, POINT_2_Y, 
+    ACCEL_1_X, ACCEL_1_Y, ACCEL_1_Z, ACCEL_2_X, ACCEL_2_Y, ACCEL_2_Z, 
+    GYRO_1_X,  GYRO_1_Y,  GYRO_1_Z
+};
+
+init{
+    //Using the controller on Input-A.
+    remapper(HatsuneMikuRemap);
+	
+	/*
+	Default Layout:
+				up							triangle
+	left				right		square				circle
+				down							 x
+--------------------------------------------------------------------------------
+	Layout 1 (Recommended layout):
+				up								left
+	triangle				right		down			circle
+				square							  x
+--------------------------------------------------------------------------------	
+	Layout 2 (For normal games, what the remapper does):
+	   R1	     Y
+	L1   R2	    x B
+	   L2		 A
+--------------------------------------------------------------------------------
+	//Following code is to swap manually if you have not physically altered
+	  your controller. It is recommended you physically alter the button wiring
+	  because the default layout has built in limitations. You cannot press up
+	  and down at the same time nor can you press left and right at the same
+	  time. Think of a playstation controller, it is physically impossible to
+	  do so.
+	  
+	remapper_swap(PS3_DOWN, PS3_SQUARE);
+	remapper_swap(PS3_LEFT, PS3_TRIANGLE);
+	remapper_swap(PS3_TRIANGLE, PS3_L2);
+	remapper_swap(PS3_SQUARE, PS3_L1);
+	remapper_swap(PS3_UP, PS3_R2);
+	remapper_swap(PS3_RIGHT, PS3_R1);
+	*/
+}
