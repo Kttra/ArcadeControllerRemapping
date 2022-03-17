@@ -33,7 +33,7 @@ Your internals may look something like this. Some controllers have color coded w
 <img src="https://user-images.githubusercontent.com/100814612/158708297-8877d16a-f36f-4178-b0f4-851791078aef.png" width="400" height="250"/><img><img src="https://user-images.githubusercontent.com/100814612/158708549-8fec77ae-e9fe-4f44-8eb3-ba622adbac98.png" width="400" height="250"/><img>
 </p>
 
-**Diagrams**
+**Overview**
 ----------------------------------------------------------------------------------------------------------------------------
 General layout for an arcade stick. Worth while to take a look if you're thinking of making a plate yourself or trying to plan out button placements.
 
