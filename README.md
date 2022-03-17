@@ -37,11 +37,10 @@ Your internals may look something like this. Some controllers have color coded w
 ----------------------------------------------------------------------------------------------------------------------------
 General layout for an arcade stick. Worth while to take a look if you're thinking of making a plate yourself or trying to plan out button placements.
 
-![arcade layout](https://user-images.githubusercontent.com/100814612/158711528-74201d75-06fb-47e5-8c21-66512ab26db4.png)
-
+<img src="https://user-images.githubusercontent.com/100814612/158711528-74201d75-06fb-47e5-8c21-66512ab26db4.png" width="600" height="300"/><img><img>
 
 **Results**
 ----------------------------------------------------------------------------------------------------------------------------
 After all this rewiring and swapping. The gpc script will allow you to revert your changes. The template used in the script is ps3 buttons, but you can use what you want if you import the correct library. Do note if you are not using a ps3 based arcade stick, I have left a template for remapping other controllers in the code itself. You can use that to alter your setup. You can either use the remapper function or the swap function. Swapping may be easier. If you only plan to use your arcade stick on PC, the joytokey software may be more intuitive to use. The script will set the controls as follows:
 
-<img src="https://user-images.githubusercontent.com/100814612/158712515-f690fbb0-c3fa-478d-8737-38656e1a9d37.png" width="400" height="250"/><img>
+<img src="https://user-images.githubusercontent.com/100814612/158712515-f690fbb0-c3fa-478d-8737-38656e1a9d37.png" width="500" height="300"/><img><img>
