@@ -34,14 +34,14 @@ init{
 	
 	/*
 	Default Layout:
-				up							triangle
-	left				right		square				circle
-				down							 x
+				up				triangle
+	left				right		square		  circle
+				down				   x
 --------------------------------------------------------------------------------
 	Layout 1 (Recommended layout):
-				up								left
-	triangle				right		down			circle
-				square							  x
+				up					left
+	triangle				right		down		circle
+				square					  x
 --------------------------------------------------------------------------------	
 	Layout 2 (For normal games, what the remapper does):
 	   R1	     Y
