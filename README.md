@@ -8,6 +8,10 @@ In games or software that require up and down or left and right to be simultaneo
 <img src="https://user-images.githubusercontent.com/100814612/158707198-661237d0-d65c-4052-8b89-7404ad52653b.png" width="400" height="200"/><img>
 </p>
 
+**What if my controller has a remap button?**
+----------------------------------------------------------------------------------------------------------------------------
+If your controller has a hardware remap button, you may be able to avoid this whole problem all together. In addition, newer controllers may also not experience this problem. It is up to you to check whether or not this problem exists and if the company behind your controller has already thought of it.
+
 **Remapping**
 ----------------------------------------------------------------------------------------------------------------------------
 Let's say the default layout of your arcade stick is like so:
