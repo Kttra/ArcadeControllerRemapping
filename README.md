@@ -32,7 +32,7 @@ We would want to change the wiring so that it ends up like this physically:
 
 Your internals may look something like this. Some controllers have color coded wiring and buttons to make the process easier.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100814612/158708297-8877d16a-f36f-4178-b0f4-851791078aef.png" width="500" height="300"/><img><img src="https://user-images.githubusercontent.com/100814612/158708549-8fec77ae-e9fe-4f44-8eb3-ba622adbac98.png" width="500" height="300"/><img>
+<img src="https://user-images.githubusercontent.com/100814612/158708297-8877d16a-f36f-4178-b0f4-851791078aef.png" width="400" height="300"/><img><img src="https://user-images.githubusercontent.com/100814612/158708549-8fec77ae-e9fe-4f44-8eb3-ba622adbac98.png" width="400" height="300"/><img>
 </p>
 
 **Diagrams**
