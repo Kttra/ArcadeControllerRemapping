@@ -2,7 +2,7 @@
 #include <remapper.gph>
 //#include <ps3.gph> //Needed if you use the remap on the bottom
 
-//Default Layout Example
+//Default Layout Example, use if your arcade stick is not ps3 based
 const uint8 DefaultMappingLayout[43] = {
     RMP_USB_A | RMP_USB_B | RMP_USB_C | RMP_USB_D | RMP_BT_A | RMP_BT_B,
     BUTTON_1,  BUTTON_2,  BUTTON_3,  BUTTON_4,  BUTTON_5,  BUTTON_6,  BUTTON_7, 
@@ -16,7 +16,7 @@ const uint8 DefaultMappingLayout[43] = {
 };
 
 //What we want
-const uint8 HatsuneMikuRemap[39] = {
+const uint8 ArcadeStickRemap[39] = {
     RMP_USB_B,
     BUTTON_1,  BUTTON_2,  BUTTON_3,  BUTTON_11,  BUTTON_10,  BUTTON_6,  BUTTON_12, 
     BUTTON_13,  BUTTON_9,  BUTTON_4, BUTTON_17, BUTTON_14, BUTTON_5, BUTTON_7, 
@@ -29,7 +29,8 @@ const uint8 HatsuneMikuRemap[39] = {
 
 init{
     //Using the controller on Input-A.
-    remapper(HatsuneMikuRemap);
+    //Call DefaultMappingLayout instead if your controller is not ps3 based
+    remapper(ArcadeStickRemap);
 	
 	/*
 	Default Layout:
