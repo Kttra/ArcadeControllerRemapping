@@ -1,4 +1,4 @@
-#pragma METAINFO("Miku Remap - R2 L2", 1, 00, "Kttra")
+#pragma METAINFO("Arcade Stick Remap", 1, 00, "Kttra")
 #include <remapper.gph>
 //#include <ps3.gph> //Needed if you use the remap on the bottom
 
