@@ -1,4 +1,4 @@
-# Arcade Controller Remapper
+# Arcade Controller Remapping
 Remaps the controls for an arcade controller after or before physically changing the wiring to make it more compatible. As games evolve throughout the years, older controllers may lose the compatibility to play them. In this case, we explore the limitations of a controller's d-pad and how we can use software to remap the buttons after altering them. Specifically we want the controller to handle situations that require the bottom row of buttons and two of the directional buttons being held down to register (6 inputs at once).
 
 **D-pad Limitations**
