@@ -3,7 +3,7 @@ Remaps the controls for an arcade controller after or before physically changing
 
 **D-pad Limitations**
 ----------------------------------------------------------------------------------------------------------------------------
-In games or software that require up and down or left and right to be simultaneously pressed down on, you will notice that while you can physically input it, it will not work. This is because of hardware limitations put in place. Think of a playstation controller. The d-pad is made up of a single piece (refer to image below). When up is pressed on, the bottom part of the d-pad is lifted up. This makes it so it's impossible to press both at the same time. The same can be said for left and right. On the other hand, the face buttons do not have such a limitation. In this case we require rewiring and rearranging of the buttons.
+In games or software that require up and down or left and right to be simultaneously pressed down on, you will notice that while you can physically input it, it will not work. This is because of hardware limitations put in place. Think of a playstation controller. The d-pad is made up of a single piece (refer to image below). When up is pressed on, the bottom part of the d-pad is lifted up. This makes it so it's impossible to press both at the same time. The same can be said for left and right. On the other hand, the face buttons do not have such a limitation. In conclusion, we require rewiring and rearranging of the buttons.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100814612/158707198-661237d0-d65c-4052-8b89-7404ad52653b.png" width="400" height="200"/><img>
 </p>
