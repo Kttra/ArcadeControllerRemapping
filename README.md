@@ -10,7 +10,7 @@ In games or software that require up and down or left and right to be simultaneo
 
 **What if my controller has a remap button?**
 ----------------------------------------------------------------------------------------------------------------------------
-If your controller has a hardware remap button, you may be able to avoid this whole problem all together. In addition, newer controllers may also not experience this problem. It is up to you to check whether or not this problem exists and if the company behind your controller has already thought of it.
+If your controller has a hardware remap button, you may be able to avoid this whole problem all together. In addition, newer controllers may also not experience this problem. It is up to you to check whether or not this problem exists and if the company behind your controller has already thought of addressing it.
 
 **Remapping**
 ----------------------------------------------------------------------------------------------------------------------------
