@@ -1,5 +1,5 @@
 # Arcade Controller Remapper
-Remaps the controls for an arcade controller after or before physically changing the wiring to make it more compatible. As games evolve throughout the years, older controllers may lose the compatibility to play them. In this case, we explore the limitations of a controller's d-pad and how we can use software to remap the buttons after altering them.
+Remaps the controls for an arcade controller after or before physically changing the wiring to make it more compatible. As games evolve throughout the years, older controllers may lose the compatibility to play them. In this case, we explore the limitations of a controller's d-pad and how we can use software to remap the buttons after altering them. Specifically we want the controller to handle situations that require the bottom row of buttons and two of the directional buttons being held down to register (6 inputs at once).
 
 **D-pad Limitations**
 ----------------------------------------------------------------------------------------------------------------------------
@@ -10,9 +10,13 @@ In games or software that require up and down or left and right to be simultaneo
 
 **Remapping**
 ----------------------------------------------------------------------------------------------------------------------------
-Let's say the default layout of your arcade stick is like so:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We would want to change the wiring so it's like this:
+Let's say the default layout of your arcade stick is like so:
 
-<img src="https://user-images.githubusercontent.com/100814612/158709638-01e5cd9a-83e4-4bf4-a63c-d0a1dcb38160.png" width="500" height="300"/><img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/100814612/158710065-aa3aea89-6af2-45bd-800f-462686abb5cf.png" width="500" height="300"/><img><img>
+<img src="https://user-images.githubusercontent.com/100814612/158709638-01e5cd9a-83e4-4bf4-a63c-d0a1dcb38160.png" width="500" height="300"/><img>&nbsp;&nbsp;
+
+We would want to change the wiring so that it ends up like this physically:
+
+<img src="https://user-images.githubusercontent.com/100814612/158710065-aa3aea89-6af2-45bd-800f-462686abb5cf.png" width="500" height="300"/><img><img>
 
 
 
@@ -31,4 +35,8 @@ Your internals may look something like this. Some controllers have color coded w
 <img src="https://user-images.githubusercontent.com/100814612/158708297-8877d16a-f36f-4178-b0f4-851791078aef.png" width="500" height="300"/><img><img src="https://user-images.githubusercontent.com/100814612/158708549-8fec77ae-e9fe-4f44-8eb3-ba622adbac98.png" width="500" height="300"/><img>
 </p>
 
+**Diagrams**
+----------------------------------------------------------------------------------------------------------------------------
 
+**Results**
+----------------------------------------------------------------------------------------------------------------------------
