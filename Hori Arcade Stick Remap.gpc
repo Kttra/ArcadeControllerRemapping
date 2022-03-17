@@ -46,7 +46,7 @@ init{
 	Layout 2 (For normal games, what the remapper does):
 	   R1	     Y
 	L1   R2	    x B
-	   L2		 A
+	   L2	     A
 --------------------------------------------------------------------------------
 	//Following code is to swap manually if you have not physically altered
 	  your controller. It is recommended you physically alter the button wiring
