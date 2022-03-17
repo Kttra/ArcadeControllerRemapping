@@ -1,5 +1,5 @@
 # Arcade Controller Remapping
-Remaps the controls for an arcade controller after or before physically changing the wiring to make it more compatible. As games evolve throughout the years, older controllers may lose the compatibility to play them. In this case, we explore the limitations of a controller's d-pad and how we can use software to remap the buttons after altering them. Specifically we want the controller to handle situations that require the bottom row of buttons and two of the directional buttons being held down to register (6 inputs at once).
+Remaps the controls for an arcade controller after or before physically changing the wiring to make it more compatible. As games evolve throughout the years, older controllers may lose the compatibility to play them. In this case, we explore the limitations of a controller's d-pad and how we can use software to remap the buttons after altering them. Specifically we want the controller to handle situations that require the bottom row of buttons and two adjacent directional buttons all registering at the same time (6 inputs at once).
 
 **D-pad Limitations**
 ----------------------------------------------------------------------------------------------------------------------------
@@ -16,9 +16,7 @@ Let's say the default layout of your arcade stick is like so:
 
 We would want to change the wiring so that it ends up like this physically:
 
-<img src="https://user-images.githubusercontent.com/100814612/158710065-aa3aea89-6af2-45bd-800f-462686abb5cf.png" width="500" height="300"/><img><img>
-
-
+<img src="https://user-images.githubusercontent.com/100814612/158712199-aa7336af-01b7-4d7e-8a2a-8587ea3fcace.png" width="500" height="300"/><img><img>
 
 **Changing the Wiring**
 ----------------------------------------------------------------------------------------------------------------------------
@@ -37,6 +35,13 @@ Your internals may look something like this. Some controllers have color coded w
 
 **Diagrams**
 ----------------------------------------------------------------------------------------------------------------------------
+General layout for an arcade stick. Worth while to take a look if you're thinking of making a plate yourself or trying to plan out button placements.
+
+![arcade layout](https://user-images.githubusercontent.com/100814612/158711528-74201d75-06fb-47e5-8c21-66512ab26db4.png)
+
 
 **Results**
 ----------------------------------------------------------------------------------------------------------------------------
+After all this rewiring and swapping. The gpc script will allow you to revert your changes. The template used in the script is ps3 buttons, but you can use what you want if you import the correct library. Do note if you are not using a ps3 based arcade stick, I have left a template for remapping other controllers in the code itself. You can use that to alter your setup. You can either use the remapper function or the swap function. Swapping may be easier. If you only plan to use your arcade stick on PC, the joytokey software may be more intuitive to use. The script will set the controls as follows:
+
+<img src="https://user-images.githubusercontent.com/100814612/158712515-f690fbb0-c3fa-478d-8737-38656e1a9d37.png" width="400" height="250"/><img>
